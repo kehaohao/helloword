@@ -3,7 +3,7 @@
 
 int main(int argv,const *arc[])
 {
-     int i  ;
+     int i,j  ;
      printf("ke hao note\n");
       printf("ke hao note\n");
 
