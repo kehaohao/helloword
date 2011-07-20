@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(int argv,const *arc[])
 {
      int i  ;
