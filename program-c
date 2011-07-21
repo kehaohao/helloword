@@ -13,3 +13,15 @@ git commit -a
  git push
 
 notice:在local 与 sever 中进行文件传送时的问题
+
+#Set ssh-key
+
+1.ssh-keygen;
+   then knock 3 times to enter
+
+2.cd .ssh
+
+3.vim id_rsa.pub 
+       notice: paste the constent to the Account settings and set key
+
+
