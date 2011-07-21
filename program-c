@@ -24,4 +24,28 @@ notice:在local 与 sever 中进行文件传送时的问题
 3.vim id_rsa.pub 
        notice: paste the constent to the Account settings and set key
 
+#vim
+
+	Command = operator + number + motion
+		    d(elete)  1,2                        y(ank)             gg+G
+
+				  
+	 其中   小写u还原上一次操作 大写U是恢复原始即全部撤销
+						     小写p粘贴在光标的下一行 大写P粘贴再光标的上一行
+ 
+#更改桌面显示目录的内容
+        
+
+  2.~/.config $ ls;
+   
+  3.cd .config
+   
+  4.然后vim user-dirs.dirs 去更改设置
+  
+  #设置html文本，在文本中直接进入链接
+  
+  1.vim h.html;
+  
+  2.<a href="http://happypeter.org">hello</a>;
+    在文本中直接进入链接如hello ,然后在网址http://happypeter.org中可找到相关        信息；
 
