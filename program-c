@@ -6,3 +6,10 @@
 #三种配置文件
  such as : .vimrc   .gitconfig  .bashrc  
 
+#在git中 delete the  file  I don't need
+
+git rm trash
+git commit -a
+ git push
+
+
