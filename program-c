@@ -12,4 +12,4 @@ git rm trash
 git commit -a
  git push
 
-
+notice:在local 与 sever 中进行文件传送时的问题
