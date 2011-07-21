@@ -1,15 +1,10 @@
 #include<stdio.h>
-
-
 int main(int argv,const *arc[])
 {
-     int i,j  ;
-     printf("ke hao note\n");
-      printf("ke hao note\n");
-
-     for(i = 0; i <= 100 ; i ++)
+     int i;
+     for(i = 0; i <= 10 ; i ++)
      { 
-          printf("i is %d\n",i);
+          printf("hello everyone ! is %d\n",i);
      } 
      return 0;
 }
