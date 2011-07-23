@@ -54,6 +54,10 @@ imap  jj <Esc>在插入模式下变成普通模式
 
  ctags hello.c hello.h main.c  的运用
   注意. *  的应用
+  文件改后要重新修改tags文件，如ctags hello.c main.c
+ 
+
+ ls -l 查看文件详细信息
 
 
 

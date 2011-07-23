@@ -1,5 +1,4 @@
-#include<stdio.h>
-#include "common.h"
+#include "hello.h"
 void say_three_hi()
 {
        int j;
