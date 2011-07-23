@@ -63,7 +63,7 @@ set dictionary=/usr/share/dict/words
 )
 
 #自动缩进快捷键
-1.Ctrl + n ; 找出相应字符
+1.Ctrl + n ; 找出相应字符 补齐
 
 2.Ctrl + t; 缩进
 
