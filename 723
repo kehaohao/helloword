@@ -44,3 +44,16 @@ imap  jj <Esc>在插入模式下变成普通模式
 #在windous下'\n' = '\n';
 
 
+#ctagc工具
+如ctags hello.c 然后就会在hello.c 所在的目录下生成tags
+
+ Ctrl -]  ：from call to definition
+ Ctrl -t  : 回到上一次，不过这是在ctags中运用的
+ 
+ Ctrl -o  : 回到光标的上一次
+
+ ctags hello.c hello.h main.c  的运用
+  注意. *  的应用
+
+
+
