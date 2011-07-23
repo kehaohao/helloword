@@ -17,4 +17,17 @@
 
 注意：允许他人登录你的服务器 sudo service ssh start
                   停止         sudo service ssh stop
+
+#set vim
+
+set equal 4 whitespace) set autoindent ”自动缩进“
+
+set expandtab    “把<tab>展开成空格”
+
+set tabstop=4    “让<tab>占四个空格”
+
+set shiftwidth=4   “用 '>' 同样占四个空格”
+
+set dictionary=/usr/share/dict/words  "使用 <ctrl-x-k> 查找单词; 使用 <ctrl-x-f> 查找目录文件名"
+
   
