@@ -1,0 +1,20 @@
+#最高用户主目录
+ 如/usr
+
+#查看机器的ip地址
+
+1.ifconfig
+
+#登录服务器
+1.download openssh-sever 下载软件
+
+2.ssh peter@192.168.1.17 然后输入密码
+   Ctrl d 退出服务器
+
+3.在本地中拷贝他人的东东 scp xx/xxx/xxxx .
+  如 scp peter@192.168.1.17:~/xxx .
+  文件夹scp -r peter@192.168.1.17:~/xxx .
+
+注意：允许他人登录你的服务器 sudo service ssh start
+                  停止         sudo service ssh stop
+  
