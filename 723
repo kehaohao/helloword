@@ -40,5 +40,7 @@ notice : .c文件检查注释
 imap  jj <Esc>在插入模式下变成普通模式
 这是在 .vimrc 中更改的
 
+#在UNIX下 '\n' = '\n'+'\r'
+#在windous下'\n' = '\n';
 
 
