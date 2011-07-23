@@ -6,7 +6,7 @@
 1.ifconfig
 
 #登录服务器
-1.download openssh-sever 下载软件
+1.download openssh-server 下载软件
 
 2.ssh peter@192.168.1.17 然后输入密码
    Ctrl d 退出服务器
