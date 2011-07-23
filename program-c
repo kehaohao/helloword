@@ -32,7 +32,8 @@ notice:在local 与 sever 中进行文件传送时的问题
 				  
 	 其中   小写u还原上一次操作 大写U是恢复原始即全部撤销
 						     小写p粘贴在光标的下一行 大写P粘贴再光标的上一行
- 
+
+
 #更改桌面显示目录的内容
         
 
@@ -41,11 +42,31 @@ notice:在local 与 sever 中进行文件传送时的问题
   3.cd .config
    
   4.然后vim user-dirs.dirs 去更改设置
-  
-  #设置html文本，在文本中直接进入链接
+
+
+#设置html文本，在文本中直接进入链接
   
   1.vim h.html;
   
   2.<a href="http://happypeter.org">hello</a>;
     在文本中直接进入链接如hello ,然后在网址http://happypeter.org中可找到相关        信息；
+
+
+# tabbing
+
+set expandtab 
+set shiftwidth=4  
+set tabstop=4    让<tab>站四个空格
+set autoindent   自动缩进
+set dictionary=/usr/share/dict/words
+(在vim 中用Ctrl X 来补齐字符，
+)
+
+#自动缩进快捷键
+1.Ctrl + n ; 找出相应字符
+
+2.Ctrl + t; 缩进
+
+3.Ctrl + d; 返回
+
 
