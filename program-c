@@ -12,6 +12,16 @@ git rm trash
 git commit -a
  git push
 
+ git remove + (文件名)
+ git add    + (文件名)
+
+ git add . 注意当前目录比较干净，不然会将一些垃圾文件添加
+
+ git commit -a -v ;可显示修改内容
+
+
+
+
 notice:在local 与 sever 中进行文件传送时的问题
 
 #Set ssh-key

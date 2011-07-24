@@ -8,6 +8,15 @@
   kill + xxx;用于关闭进程
   kill  -9  + xxx ; 强行关闭进程 如：kill -9 2003
 
+#find 
+
+find xxx;
+find xxx|grep + ();
+查找字符串
+
+updatedb
+sudo  updatedb 更新数据库
+
 
 # ls|grep tig 
 
