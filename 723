@@ -1,5 +1,4 @@
 #最高用户主目录
-
  如/usr
 
 #查看机器的ip地址
@@ -72,3 +71,17 @@ imap  jj <Esc>在插入模式下变成普通模式
   2.git revert HEAD    
 
 #which  - locate a command
+
+
+#查找字符出现在那个文件中
+
+first install these packages:
+
+    sudo apt-get install libncurses5 libncurses5-dev
+
+Next:
+
+    make    必须是当前目录有Makefile文件才能执行成功
+    sudo make install  安装make 
+
+    
