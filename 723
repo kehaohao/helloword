@@ -71,6 +71,8 @@ imap  jj <Esc>在插入模式下变成普通模式
   2.git revert HEAD    
 
 #which  - locate a command
+#locate -找出含该字符串的文件
+
 
 
 #查找字符出现在那个文件中

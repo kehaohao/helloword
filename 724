@@ -1,0 +1,36 @@
+#任务进程
+
+ ps aux 列出当前系统进程
+
+ ps aux|grep + (进程名)如firefox
+  只查找具体进程
+
+  kill + xxx;用于关闭进程
+  kill  -9  + xxx ; 强行关闭进程 如：kill -9 2003
+
+
+# ls|grep tig 
+
+#make的应用
+ 
+  first install these packages:
+   
+      sudo apt-get install libncurses5 libncurses5-dev
+        
+   Next:
+           
+          make  必须是当前目录有Makefile文件，才能执行成功
+          sudo make install  让该程序执行
+   e : 进入
+   gg :进入首行
+   G： 末行
+
+   ls -l +xxx ;查寻详细信息
+
+
+
+          
+
+
+
+
