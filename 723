@@ -71,4 +71,4 @@ imap  jj <Esc>在插入模式下变成普通模式
 
   2.git revert HEAD    
 
-
+#which  - locate a command
