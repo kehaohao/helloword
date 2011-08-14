@@ -79,4 +79,7 @@ set dictionary=/usr/share/dict/words
 
 3.Ctrl + d; 返回
 
+#注意键盘回车使得问题
+getchar() 从缓从区中读取回车键
+scanf() 不读取
 
